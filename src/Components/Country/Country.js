@@ -4,7 +4,7 @@ import './Country.css'
 const Country = (props) => {
     const {name, flags, timezones, currencies} = props.country;
 
-    const currency = Object.keys(currencies ? currencies : 'Emtpty Currencies')[0];
+    const currency = Object.keys(currencies ? currencies : 'Empty Currencies')[0];
     return (
         <div className='country'>
             <h2>{name.common}</h2>
